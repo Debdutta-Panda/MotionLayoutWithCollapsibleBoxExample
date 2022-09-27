@@ -96,7 +96,10 @@ fun MainUI() {
                         .fillMaxSize()
                 ){
                     items(100){
-                        Text(it.toString())
+                        Text(
+                            it.toString(),
+                            color = Color.White
+                        )
                     }
                 }
             }
